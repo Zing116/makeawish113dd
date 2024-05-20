@@ -139,10 +139,10 @@ hgroup {
 
 html,
 body {
-  font-family: "Poppins", sans-serif;
-  -ms-text-size-adjust: 100%;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Noto Sans TC", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
 }
 
 a {
@@ -155,7 +155,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #1e1e1e;
+  color: rgb(23, 34, 71);
   margin-top: 0px;
   margin-bottom: 0px;
   font-weight: 700;
@@ -168,7 +168,7 @@ ul {
 p {
   font-size: 14px;
   line-height: 28px;
-  color: #4a4a4a;
+  color: rgba(23, 34, 71, 0.8);
 }
 
 img {
@@ -183,7 +183,7 @@ Global Styles
 */
 html,
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
 }
 
 ::selection {
@@ -507,7 +507,7 @@ Header Style
   height: 40px;
   line-height: 40px;
   text-transform: capitalize;
-  color: #1e1e1e;
+  color: rgb(23, 34, 71);
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
   -o-transition: all 0.4s ease 0s;
@@ -533,15 +533,15 @@ Header Style
 }
 
 .header-area .main-nav .nav li:hover a {
-  color: #f35525;
+  color: rgba(218, 191, 142);
 }
 
 .header-area .main-nav .nav li a.active {
-  color: #f35525;
+  color: rgba(218, 191, 142);
 }
 
 .background-header .main-nav .nav li a.active {
-  color: #f35525;
+  color: rgba(218, 191, 142);
 }
 
 .header-area .main-nav .menu-trigger {
@@ -710,7 +710,7 @@ Header Style
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #ee626b !important;
+    color: rgba(218, 191, 142) !important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -776,25 +776,146 @@ Banner Style
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 220px 20% 320px 20%;
+  padding: 220px 50% 320px 50%;
   margin-top: 0px;
 }
 
 .main-banner .item-1 {
-  background-image: url(../images/banner-01.jpg);
+  background-image: url(../images/大主圖1拷貝.jpg);
 }
 
 .main-banner .item-2 {
-  background-image: url(../images/banner-02.jpg);
+  background-image: url(../images/大主圖2拷貝.jpg);
 }
 
 .main-banner .item-3 {
-  background-image: url(../images/banner-03.jpg);
+  background-image: url(../images/大主圖3拷貝.jpg);
+}
+.main-banner .item-4 {
+  background-image: url(../images/包裝1.JPG);
+  border-radius: 10px;
 }
 
+.main-banner .item-5 {
+  background-image: url(../images/包裝2.JPG);
+  border-radius: 10px;
+}
+
+.main-banner .item-6 {
+  background-image: url(../images/包裝3.JPG);
+  border-radius: 10px;
+}
+.main-banner .item-hk1 {
+  background-image: url(../images/HK.JPG);
+  border-radius: 10px;
+}
+
+.main-banner .item-hk2 {
+  background-image: url(../images/HK2.JPG);
+  border-radius: 10px;
+}
+
+.main-banner .item-hk3 {
+  background-image: url(../images/HK3.JPG);
+  border-radius: 10px;
+}
+.main-banner .item-hk4 {
+  background-image: url(../images/HK4.JPG);
+  border-radius: 10px;
+}
+.main-banner .item-kor1 {
+  background-image: url(../images/KOR.JPG);
+  border-radius: 10px;
+}
+
+.main-banner .item-kor2 {
+  background-image: url(../images/KOR2.JPG);
+  border-radius: 10px;
+}
+
+.main-banner .item-kor3 {
+  background-image: url(../images/KOR3.JPG);
+  border-radius: 10px;
+}
+.main-banner .item-kor4 {
+  background-image: url(../images/KOR4.JPG);
+  border-radius: 10px;
+}
+.main-banner .item-ind1 {
+  background-image: url(../images/IND.JPG);
+  border-radius: 10px;
+}
+
+.main-banner .item-ind2 {
+  background-image: url(../images/IND2.JPG);
+  border-radius: 10px;
+}
+
+.main-banner .item-ind3 {
+  background-image: url(../images/IND3.JPG);
+  border-radius: 10px;
+}
+.main-banner .item-ind4 {
+  background-image: url(../images/IND4.JPG);
+  border-radius: 10px;
+}
+.main-banner .item-thai1 {
+  background-image: url(../images/THAI.JPG);
+  border-radius: 10px;
+}
+
+.main-banner .item-thai2 {
+  background-image: url(../images/THAI2.JPG);
+  border-radius: 10px;
+}
+
+.main-banner .item-thai3 {
+  background-image: url(../images/THAI3.JPG);
+  border-radius: 10px;
+}
+.main-banner .item-thai4 {
+  background-image: url(../images/THAI4.JPG);
+  border-radius: 10px;
+}
+.main-banner .item-jp1 {
+  background-image: url(../images/JP.JPG);
+  border-radius: 10px;
+}
+
+.main-banner .item-jp2 {
+  background-image: url(../images/JP2.JPG);
+  border-radius: 10px;
+}
+
+.main-banner .item-jp3 {
+  background-image: url(../images/JP3.JPG);
+  border-radius: 10px;
+}
+.main-banner .item-jp4 {
+  background-image: url(../images/JP4.JPG);
+  border-radius: 10px;
+}
+.main-banner .item-tw1 {
+  background-image: url(../images/TW.JPG);
+  border-radius: 10px;
+}
+
+.main-banner .item-tw2 {
+  background-image: url(../images/TW2.JPG);
+  border-radius: 10px;
+}
+
+.main-banner .item-tw3 {
+  background-image: url(../images/TW3.JPG);
+  border-radius: 10px;
+}
+.main-banner .item-tw4 {
+  background-image: url(../images/TW4.JPG);
+  border-radius: 10px;
+}
 .main-banner .item span.category {
   background-color: #fff;
-  color: #1e1e1e;
+  color: rgb(23, 34, 71);
   font-size: 16px;
   font-weight: 500;
   text-transform: capitalize;
@@ -834,7 +955,7 @@ Banner Style
 }
 
 .main-banner .owl-dots .active {
-  background-color: #f35525;
+  background-color: rgba(166, 178, 212, 1);
 }
 
 .main-banner .owl-nav {
@@ -886,6 +1007,7 @@ Featured Style
 
 .featured .left-image img {
   padding-left: 55px;
+  padding-top: 30px;
 }
 
 .featured .section-heading {
@@ -957,7 +1079,7 @@ Video Style
 */
 
 .video {
-  background-image: url(../images/video-bg.jpg);
+  background-image: url(../images/擴香石裝飾主圖拷貝.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -983,21 +1105,63 @@ Video Style
   border-radius: 10px;
 }
 
-.video-content .video-frame a {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-26px, -26px);
-  width: 52px;
-  height: 52px;
-  background-color: #fff;
-  border-radius: 50%;
+.video-content .video-frame iframe {
+  border-radius: 10px;
+  align-items: center;
+  width: 100%;
+}
+/* 
+---------------------------------------------
+Candle Style
+--------------------------------------------- 
+*/
+
+.Candle {
+  background-image: url(../images/包裝主圖拷貝2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 100px 0px 250px 0px;
+  position: relative;
+}
+
+.Candle-content {
+  margin-top: -240px;
+}
+
+.Candle .section-heading h2 {
+  color: rgb(166, 178, 212);
+}
+
+.Candle-content .Candle-frame {
+  position: relative;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.Candle-content .Candle-frame img {
+  border-radius: 10px;
+}
+
+.Candle-content .accordion-bottom-content {
+  position: relative;
+  border-radius: 25px;
+  width: 100px;
+  padding: 10px 0px;
   display: inline-block;
   text-align: center;
-  line-height: 52px;
-  color: rgb(23, 34, 71);
-  outline: 15px solid rgba(23, 34, 71, 0.3);
-  font-size: 18px;
+  margin-right: 25px;
+  margin-top: 50px;
+}
+.Candle-content .accordion-bottom-content:after {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-image: url("../images/星星.png");
+  background-size: cover;
+  content: "";
+  right: -25px;
+  top: -25px;
 }
 
 /* 
@@ -1063,9 +1227,8 @@ Best Deal Style
   padding: 100px 0px;
 }
 
-.best-dealImg{
+.best-dealImg {
   border-radius: 25px;
-  border: 5px solid rgb(221, 161, 165);
 }
 
 .best-deal .accordion-bottom-content {
@@ -1090,8 +1253,7 @@ Best Deal Style
   top: -25px;
 }
 
-
-.best-dealWord{
+.best-dealWord {
   margin-left: 50px;
   width: 450px;
 }
@@ -1103,16 +1265,14 @@ Best Deal Style
 
 .best-deal .icon-button {
   margin-top: 50px;
-  
-  
 }
-.best-deal .icon-button i{
-  color: rgb(166,178,212);
-  background-color: rgb(166,178,212);
+.best-deal .icon-button i {
+  color: rgb(166, 178, 212);
+  background-color: rgb(166, 178, 212);
 }
-.best-deal .icon-button a{
+.best-deal .icon-button a {
   color: rgb(255, 255, 255);
-  background-color: rgb(221, 161, 165)
+  background-color: rgb(221, 161, 165);
 }
 
 /* 
@@ -1120,7 +1280,13 @@ Best Deal Style
 Properties Style
 --------------------------------------------- 
 */
-
+.properties h2 {
+  color: rgb(166, 178, 212);
+  background-color: rgba(221, 161, 165, 0.3);
+  border-radius: 50px;
+  font-size: 36px;
+  padding: 10px;
+}
 .properties .item {
   border-radius: 10px;
   padding: 30px;
@@ -1140,7 +1306,7 @@ Properties Style
   font-weight: 700;
   border-radius: 5px;
   font-size: 20px;
-  color: #1e1e1e;
+  color: rgb(23, 34, 71);
   padding: 5px 12px;
   display: inline-block;
   margin-top: 25px;
@@ -1151,13 +1317,9 @@ Properties Style
   margin: 25px 0px;
 }
 
-.properties .item h4 a {
-  color: #1e1e1e;
-}
-
 .properties .item h6 {
   font-size: 20px;
-  color: #1e1e1e;
+  color: rgb(23, 34, 71);
   margin-top: 6px;
   display: inline-block;
   float: right;
@@ -1166,7 +1328,7 @@ Properties Style
 
 .properties .item .goto {
   text-align: right;
-  color: #f35525;
+  color: rgba(218, 191, 142);
   font-size: 20px;
 }
 
@@ -1189,12 +1351,6 @@ Contact Style
   color: #fff;
 }
 
-
-
-
-
-
-
 /* 
 ---------------------------------------------
 Footer Style
@@ -1207,7 +1363,7 @@ footer.footer-no-gap {
 
 footer {
   margin-top: 150px;
-  background-color: #1e1e1e;
+  background-color: rgb(23, 34, 71);
   min-height: 100px;
 }
 
@@ -1236,8 +1392,8 @@ Page Header Style
 --------------------------------------------- 
 */
 
-.page-heading {
-  background-image: url(../images/page-heading-bg.jpg);
+.page-headingBS {
+  background-image: url(../images/品牌主圖.jpg);
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1245,7 +1401,7 @@ Page Header Style
   text-align: center;
 }
 
-.page-heading span {
+.page-headingBS span {
   background-color: #fff;
   color: #1e1e1e;
   font-size: 14px;
@@ -1256,11 +1412,75 @@ Page Header Style
   margin-bottom: 30px;
 }
 
-.page-heading span a {
+.page-headingBS span a {
   color: #1e1e1e;
 }
 
-.page-heading h3 {
+.page-headingBS h3 {
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+/*candle header*/
+.page-headingC {
+  background-image: url(../images/蠟燭主圖.jpg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 110px 0px;
+  text-align: center;
+}
+
+.page-headingC span {
+  background-color: #fff;
+  color: #1e1e1e;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 10px 25px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.page-headingC span a {
+  color: #1e1e1e;
+}
+
+.page-headingC h3 {
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+/*scentedCandle header*/
+.page-headingSC {
+  background-image: url(../images/香氛主圖.jpg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 110px 0px;
+  text-align: center;
+}
+
+.page-headingSC span {
+  background-color: #fff;
+  color: #1e1e1e;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 10px 25px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.page-headingSC span a {
+  color: #1e1e1e;
+}
+
+.page-headingSC h3 {
   font-size: 48px;
   font-weight: 900;
   text-transform: uppercase;
@@ -1353,11 +1573,10 @@ Single Page Style
 }
 
 .single-property .main-content h4 {
-  font-size: 25px;
+  font-size: 36px;
   margin-top: 25px;
-  margin-bottom: 40px;
-  padding-bottom: 40px;
-  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .single-property .main-content span.category {
@@ -1365,7 +1584,7 @@ Single Page Style
   font-weight: 500;
   border-radius: 5px;
   font-size: 14px;
-  color: #1e1e1e;
+  color: rgb(23, 34, 71);
   padding: 5px 12px;
   display: inline-block;
   margin-top: 40px;
@@ -1675,5 +1894,184 @@ body {
   }
   .contact-page .section-heading {
     margin-right: 100px;
+  }
+}
+
+.story {
+  background-color: rgba(221, 161, 165, 0.3);
+}
+
+.story .photo {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px; /* 調整圖片間的間距 */
+  margin-right: 30px;
+}
+.story .photoitem {
+  width: 75px; /* 調整圖片大小 */
+  height: 75px; /* 調整圖片大小 */
+  border-radius: 50%;
+  object-fit: cover; /* 確保圖片內容不會變形 */
+  margin: 20px 10px;
+}
+.story .logo-brand {
+  text-align: center;
+}
+.story .logo-brand img {
+  width: 20%;
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+.story p {
+  color: rgb(23, 34, 71);
+  font-size: 24px;
+
+  margin: 0px 300px;
+}
+.story h4 {
+  color: rgb(23, 34, 71);
+  font-size: 28px;
+  text-align: center;
+  margin: 0px 100px;
+  margin-bottom: 50px;
+}
+.maincolor {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.circle1 {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(166, 178, 212);
+  border-radius: 50%;
+  margin: 10px;
+}
+.circle2 {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(221, 161, 165);
+  border-radius: 50%;
+  margin: 10px;
+}
+.circle3 {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(218, 191, 142);
+  border-radius: 50%;
+  margin: 10px;
+}
+
+/*
+.scentedCandle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.scentedCandlecontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: px;
+}
+
+.scentedCandlebox {
+  display: flex;
+  align-items: center;
+  padding: 60px 20px;
+  background-color: white;
+  border: 3px solid rgba(218, 191, 142);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  margin: -1px;
+}
+
+.scentedCandlebox img {
+  width: 120px;
+
+  margin-right: 10px;
+}
+
+.scentedCandlebox p {
+  color: rgb(221, 161, 165);
+  margin: 0;
+  width: 150px;
+}
+.scentedCandlebox h5 {
+  color: rgb(221, 161, 165);
+  margin: 0;
+}
+
+*/
+
+.scentedCandle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.scentedCandlecontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  width: 80%;
+  height: 100%;
+  max-width: 800px;
+  margin-top: 200px;
+}
+
+.scentedCandlebox {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  border: 3px solid rgba(218, 191, 142);
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0;
+}
+
+.scentedCandlebox img {
+  width: 120px;
+  margin-right: 10px;
+}
+
+.scentedCandlebox .text {
+  display: flex;
+  flex-direction: column;
+}
+
+.scentedCandlebox h5,
+.scentedCandlebox p {
+  margin: 0;
+  color: rgb(221, 161, 165);
+}
+
+.scentedCandlebox h5 {
+  margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  .scentedCandlecontainer {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .scentedCandlebox {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .scentedCandlebox img {
+    margin-bottom: 10px;
   }
 }
